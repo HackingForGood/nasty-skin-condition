@@ -1,9 +1,9 @@
 {
-  "name": "react-redux-firebase-boilerplate",
+  "name": "MedX",
   "version": "1.0.0",
-  "description": "Simple boilerplate for Reactjs with Redux and Firebase",
+  "description": "",
   "main": "index.jsx",
-  "repository": "git@github.com:btomashvili/react-redux-firebase-boilerplate.git",
+  "repository": "git@github.com:/HackingForGood/nasty-skin-condition",
   "scripts": {
     "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack-dev.config.js --watch --colors",
     "build": "rm -rf dist && ./node_modules/.bin/webpack --config ./webpack/webpack-prod.config.js --colors",
@@ -12,12 +12,10 @@
     "test:watch": "npm run test -- --watch",
     "lint": "./node_modules/.bin/eslint src"
   },
-  "author": "Beka Tomashvili",
+  "author": "Nasty Skin Condition",
   "contributors": [
     {
-      "name": "Alexander Wong",
-      "email": "admin@alexander-wong.com",
-      "url": "https://www.alexander-wong.com/"
+      "name": "Diaper Rash"
     }
   ],
   "license": "MIT",
