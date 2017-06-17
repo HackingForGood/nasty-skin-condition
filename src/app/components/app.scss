@@ -1,3 +1,111 @@
 body {
   font-size: 16px;
 }
+
+.card {
+  display: flex;
+  background-color: #FDE3A7;
+  width: 90%;
+  padding: 1em;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__title {
+    font-size: 1em;
+  }
+
+  &__btn {
+    appearance: none;
+    align-self: center;
+    outline: none;
+    background-color: #CF000F;
+    color: #fff;
+    font-size: 2rem;
+    border: none 0;
+    padding: 0.31em 1em;
+    font-size: 1.5rem;
+  }
+
+  &__details {
+    align-self: center;
+  }
+
+}
+
+.list {
+  background-color: transparent;
+  border: 1px solid #FDE3A7;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+
+  &__title {
+    font-size: 3rem;
+    margin: 2em auto;
+    display: block;
+  }
+}
+
+.modal {
+  background-color: #FDE3A7;
+
+    &__btn {
+    appearance: none;
+    align-self: center;
+    outline: none;
+    font-size: 2rem;
+    border: none 0;
+    padding: 0.31em 1em;
+    font-size: 1.5rem;
+
+      &--close {
+        color: #fff;
+        background-color: #e74c3c;
+      }
+
+      &--confirm {
+        color: #fff;
+        background-color: #27ae60;
+      }
+    }
+}
+
+.main-container {
+  margin-top: 9em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__button {
+    padding: 2em 1em;
+    appearance: none;
+    outline: none;
+    font-size: 2rem;
+    border: none 0;
+    font-size: 3rem;
+  }
+}
+
+form {
+    border: 0.31em solid #000;
+    padding: 1.2em;
+
+    &__label {
+
+    }
+
+    &__input {
+      flex: 1 1 auto;
+    }
+
+    &__container {
+      display: flex;
+    }
+
+    &__btn {
+      width: 30%;
+      margin-bottom: 1em;
+    }
+
+}
