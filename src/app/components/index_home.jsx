@@ -1,5 +1,10 @@
 import React from 'react';
+import { RequestForm } from './request';
+import { List } from './list';
+
 
 export default () => {
-  return <div> Home Page of our application! </div>;
+  return <div>
+        <List />
+    </div>;
 };
